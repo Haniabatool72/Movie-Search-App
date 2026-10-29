@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CineSearch: Movie Search App</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap bar">
+  <div class="logo">Cine<b>Search</b></div>
+  <input class="search" id="q" type="search" placeholder="Search movies" aria-label="Search movies">
+  <nav><button id="tDisc" class="on">Discover</button><button id="tFav">Favorites (0)</button></nav>
+</div></header>
+<main class="wrap">
+  <div id="banner"></div>
+  <h2 id="head">Popular movies</h2>
+  <div class="status" id="status"></div>
+  <div class="grid" id="grid"></div>
+</main>
+<dialog id="dlg"></dialog>
+<script src="script.js"></script>
+</body>
+</html>
